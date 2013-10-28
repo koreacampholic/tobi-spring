@@ -1,0 +1,6 @@
+#LEVEL :: ALL > TRACE > DEBUG > INFO > WARN > ERROR > FATAL > OFF
+log4j.rootLogger=INFO, stdout
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+#log4j.appender.stdout.layout.ConversionPattern=[%d][%-5p] %m (%c:%L)%n
+log4j.appender.stdout.layout.ConversionPattern=[%d][%-5p] %m %n
